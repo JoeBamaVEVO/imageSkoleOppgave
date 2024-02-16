@@ -63,6 +63,7 @@ const handler = NextAuth({
                 
                 }
                 const user: any = await getUser(credentials);
+                console.log("user");
                 console.log(user);
                 // Checks if the user exists
                 // Checks if the password is correct
